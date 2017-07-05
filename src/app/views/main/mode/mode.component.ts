@@ -1,6 +1,5 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { AppServices } from '../../../shared/services';
-import { AppConstants } from '../../../shared/constants';
 
 import { InputTextComponent } from '../../../components';
 
