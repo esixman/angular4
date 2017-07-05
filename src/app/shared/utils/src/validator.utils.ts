@@ -17,7 +17,8 @@ export class ValidatorUtils {
   };
 
   protected static executeRegExp(pattern: string, value: any): boolean {
-    return !eval(pattern).test(value); // 반환값이 true 일 때 메세지가 지정되므로, 실행결과를 반대로 반환한다.
+    const regexp = new RegExp(pattern);
+    return !regexp.test(value); // 반환값이 true 일 때 메세지가 지정되므로, 실행결과를 반대로 반환한다.
   }
 
   protected static isSelection(type: string): boolean {

@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { UrlConstants } from '../../shared/constants';
 
 import { MainLayoutComponent } from './main.layout.component';
 import { IndexComponent, LoginComponent, SignupComponent, FileUploadComponent, UIComponent, ModeComponent } from '../../views/main';

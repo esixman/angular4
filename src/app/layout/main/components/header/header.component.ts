@@ -3,7 +3,7 @@ import { Router } from '@angular/router';
 import { AuthConstants } from '../../../../shared/constants';
 import { AppServices } from '../../../../shared/services';
 import { StorageUtils } from '../../../../shared/utils';
-import {StringUtils} from "../../../../shared/utils/src/string.utils";
+import { StringUtils } from '../../../../shared/utils/src/string.utils';
 
 @Component({
   selector: 'app-main-header',
